@@ -1,11 +1,9 @@
 import { Stack } from 'expo-router';
 
-export default function TabLayoutAuth() {
+export default function TabLayoutApp() {
   return (
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
-      <Stack.Screen name="signup" />
-      <Stack.Screen name="forgetpassword" />
     </Stack>
   );
 }
