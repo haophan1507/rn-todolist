@@ -22,6 +22,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react-native/no-inline-styles': 'off',
+    'react/no-unstable-nested-components': 'off',
 
     'max-len': [0, 120],
   },
